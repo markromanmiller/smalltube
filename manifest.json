@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "SmallTube",
+  "description": "Limit your recommended feed to a certain number of videos upon visiting the page.",
+  "version": "0.1",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["smalltube.js"],
+      "css": ["smalltube.css"]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}
