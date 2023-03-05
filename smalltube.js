@@ -118,7 +118,7 @@ function showIntentionForm(viewerElement) {
     // show the intention HTML
     mainDiv.innerHTML = "<div><form id='smalltube-intention'>" +
         "<p>Limit to &nbsp;" +
-        "<input id='videos' type='number'> videos</p>" +
+        "<input id='videos' type='number'> recommendations</p>" +
         "<p>for the next &nbsp;" +
         "<input id='until' type='number' step=any>" +
         "<select name='timeunit' id='timeunit'>" +
